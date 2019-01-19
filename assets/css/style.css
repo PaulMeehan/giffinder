@@ -5,3 +5,7 @@ body {
 p {
     border: 1px solid red;
 }
+
+.btn {
+    margin: 3px;
+}
