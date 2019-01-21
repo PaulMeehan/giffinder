@@ -49,6 +49,9 @@ function showSubjects () {
     // build query string using subject from selected button
     var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=jlyk6tnm9IH9Jd6K9eQTrQneGfOmXT3V&q=" + subject + "&limit=10&offset=0&lang=en";
 
+    // show the message explaining the favorites button
+    $("#favmsg").attr("hidden", false);
+
     // clear any previously displayed images
     $("#left").empty();
 
@@ -105,7 +108,7 @@ function showSubjects () {
 
             // create a new button to move the clicked image to the favorites column
             var newBtn = $("<button>");
-            newBtn.text("fav");
+            newBtn.text("Fav");
             newBtn.attr("id", "favorite" + i);
             newBtn.attr("class", "btn btn-info btn-sm favorite");
             newBtn.attr("onclick", "addToFavorites(" + i + ")");

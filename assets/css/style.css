@@ -6,6 +6,10 @@ body {
     background-color: #b2c2bf;
 }
 
+#favmsg {
+    background-color: #b2c2bf;
+}
+
 .subjectButton {
     margin: 3px;
 }
@@ -16,6 +20,7 @@ body {
 
 #right {
     background-color: #c0ded9;
+
 }
 
 #input {
