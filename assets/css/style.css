@@ -1,21 +1,39 @@
 body {
-    font-size: 24px;
+    font-size: 18px;
 }
 
-p {
-    border: 1px solid red;
+#subjectMenu {
+    background-color: #b2c2bf;
 }
 
 .subjectButton {
     margin: 3px;
 }
 
+#left {
+    background-color: #eaece5;
+}
+
+#right {
+    background-color: #c0ded9;
+}
+
+#input {
+    border-bottom: 1px solid rgb(148, 144, 144);
+}
+
 .imgDiv {
     margin: 10px;
+    padding-bottom: 3px;
     float: left;
-};
+    border: 1px solid rgb(113, 122, 250);
+}
 
-/* .moreInfoSpan {
-    font-size: 8px;
-}; */
 
+#favorites {
+    margin-top: 30px;
+}
+
+.favorite {
+    margin-left: 4px;
+}

@@ -21,29 +21,35 @@
 </head>
 
 <body>
-
     <div class="container-fluid">
 
         <div class="row">
             <div class="col-sm-12"  id="subjectMenu">
-                <!-- <button class="subjectButton" type="button" id="cheese">cheese</button> -->
+                <!-- to be filled dynamically with subject buttons -->
             </div>
         </div>
 
         <div class="row">
             <div class="col-sm-8" id="left">
+                <!-- to be filled dynamically with images/gifs for selected subject -->
             </div>
 
-            <div class="col-sm-4">
-                <label for="subject-input">Enter a new subject: </label>
-                <input id="subject-input" type="text">
-                <button id="add-subject" onclick="addUserButton()">Submit</button>
+            <div class="col-sm-4" id="right">
+                <div id="input">
+                    <!-- User input of new subject to add to button list -->
+                    <label for="subject-input">Enter a new subject: </label>
+                    <input id="subject-input" type="text">
+                    <button id="add-subject" onclick="addUserButton()" class="btn btn-success btn-sm">Submit</button>
+                </div>
+
+                <div id="favorites">
+                    <p>Favorites:</p>
+                </div>
             </div>
 
         </div>
 
     </div>
-
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
